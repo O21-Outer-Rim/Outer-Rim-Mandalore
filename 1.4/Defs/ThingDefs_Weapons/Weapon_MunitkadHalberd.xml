@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="OuterRimMeleeBase_Sharp">
+		<defName>OuterRim_MunitkatHalberd</defName>
+		<label>munitkad halberd</label>
+		<description>A variation of vibroweapon commonly used by mandalorians.</description>
+		<graphicData>
+			<texPath>OuterRim/Weapons/MunitkadHalberd</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Cutout</shaderType>
+            <drawSize>1.40</drawSize>
+		</graphicData>
+		<equippedAngleOffset>-30</equippedAngleOffset>
+		<techLevel>Ultra</techLevel>
+		<statBases>
+			<WorkToMake>12000</WorkToMake>
+			<Mass>0.65</Mass>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>OuterRim_MandalorianArmory</researchPrerequisite>
+		</recipeMaker>
+		<weaponTags>
+			<li>ORVibroweapon</li>
+			<li>ORMandalorianMelee</li>
+		</weaponTags>
+		<tradeTags Inherit="False">
+			<li>OuterRim_Mandalorian_Weapons</li>
+		</tradeTags>
+		<costStuffCount>60</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costList>
+			<OuterRim_ComponentHypertech>2</OuterRim_ComponentHypertech>
+		</costList>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>17</power>
+				<cooldownTime>1.4</cooldownTime>
+			</li>
+			<li>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>21</power>
+				<cooldownTime>1.4</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+</Defs>

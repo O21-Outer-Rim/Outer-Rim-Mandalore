@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="OuterRimBlasterBase_Pistol">
+		<defName>OuterRim_EE13BlasterPistol</defName>
+		<label>ee-13 blaster pistol</label>
+		<description>A blaster pistol model, often used by Mandalorians and bounty hunters.</description>
+		<graphicData>
+			<texPath>OuterRim/Weapons/EE13Pistol</texPath>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>OuterRim_MandalorianArmory</researchPrerequisite>
+		</recipeMaker>
+		<weaponTags>
+			<li>ORMandalorian</li>
+			<li>ORMandalorianRanged</li>
+			<li>ORMandalorianPistol</li>
+		</weaponTags>
+		<tradeTags>
+			<li>OuterRim_Mandalorian_Weapons</li>
+		</tradeTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>OuterRim_Bullet_MandoPistol</defaultProjectile>
+				<warmupTime>0.6</warmupTime>
+				<range>28</range>
+				<soundCast>OuterRim_Shot_EE13BlasterBolt</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
+
+</Defs>

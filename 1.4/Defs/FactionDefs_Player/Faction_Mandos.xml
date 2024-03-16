@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<FactionDef ParentName="OuterRim_ColonyBase">
+		<defName>OuterRim_MandoPlayerFaction</defName>
+		<label>mandalorian Outpost</label>
+		<description>Your own community.</description>
+		<basicMemberKind>OuterRim_Mando_Player</basicMemberKind>
+		<pawnsPlural>mandalorians</pawnsPlural>
+		<apparelStuffFilter>
+			<thingDefs>
+				<li>OuterRim_Beskar</li>
+			</thingDefs>
+		</apparelStuffFilter>
+	</FactionDef>
+
+</Defs>
