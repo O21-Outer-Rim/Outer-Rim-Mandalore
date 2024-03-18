@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="OuterRimMeleeBase_Sharp">
+		<defName>OuterRim_MandalorianSaber</defName>
+		<label>beskad</label>
+		<description>A vibroblade variant designed by Mandalorians, using Beskar to enhance its capability.</description>
+		<techLevel>Ultra</techLevel>
+		<graphicData>
+			<texPath>OuterRim/Weapons/Beskad</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<soundInteract>Interact_ChargeRifle</soundInteract>
+		<statBases>
+			<WorkToMake>20000</WorkToMake>
+			<Mass>2.0</Mass>
+		</statBases>
+		<weaponTags>
+			<li>ORMandalorian</li>
+			<li>ORMandalorianMelee</li>
+		</weaponTags>
+		<tradeTags>
+			<li>OuterRim_Mandalorian_Weapons</li>
+		</tradeTags>
+		<recipeMaker>
+			<researchPrerequisite>OuterRim_MandalorianArmory</researchPrerequisite>
+		</recipeMaker>
+		<costStuffCount>60</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costList>
+			<OuterRim_ComponentHypertech>2</OuterRim_ComponentHypertech>
+		</costList>
+		<equippedAngleOffset>-35</equippedAngleOffset>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>21</power>
+				<cooldownTime>2.1</cooldownTime>
+			</li>
+			<li>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>23</power>
+				<cooldownTime>2.1</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+</Defs>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<ResearchProjectDef ParentName="OuterRim_ResearchBaseMain">
+		<defName>OuterRim_MandalorianArmory</defName>
+		<label>Mandalorian Armory</label>
+		<description>Unlocks crafting of the Mandalorian equipment.</description>
+		<prerequisites>
+			<li>OuterRim_HypertechFabrication</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+			<li>OuterRim_ResearchCore_Mandalorian</li>
+		</requiredResearchFacilities>
+		<researchViewX>3</researchViewX>
+		<researchViewY>2</researchViewY>
+	</ResearchProjectDef>
+
+</Defs>

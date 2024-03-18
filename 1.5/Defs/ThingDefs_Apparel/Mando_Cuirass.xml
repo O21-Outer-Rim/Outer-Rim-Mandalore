@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<ThingDef ParentName="ArmorMachineableBase" Name="MandalorianChestBase" Abstract="True">
+		<techLevel>Ultra</techLevel>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+			<researchPrerequisite>OuterRim_MandalorianArmory</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+            <recipeUsers Inherit="False">
+                <li>OuterRim_HypertechFabricator</li>
+            </recipeUsers>
+		</recipeMaker>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>80</costStuffCount>
+		<costList>
+			<OuterRim_ComponentHypertech>4</OuterRim_ComponentHypertech>
+		</costList>
+		<statBases>
+			<Mass>3</Mass>
+			<WorkToMake>12000</WorkToMake>
+			<MaxHitPoints>800</MaxHitPoints>
+      		<StuffEffectMultiplierArmor>0.8</StuffEffectMultiplierArmor>
+			<Insulation_Cold>20</Insulation_Cold>
+			<Insulation_Heat>20</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<apparel>
+			<wearPerDay>0</wearPerDay>
+			<tags>
+				<li>MandalorianApparel</li>
+			</tags>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Legs</li>
+				<li>Feet</li>
+			</bodyPartGroups>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<tradeTags Inherit="False">
+			<li>OuterRim_Mandalorian_Apparel</li>
+		</tradeTags>
+	</ThingDef>
+	
+	<ThingDef ParentName="MandalorianChestBase">
+		<defName>OuterRim_MandalorianChest_Simple</defName>
+		<label>mandalorian cuirass (simple)</label>
+		<description>Simple modest design of Mandalorian chestplate.</description>
+		<graphicData>
+			<texPath>OuterRim/Apparel/Mandalorian/Simple/Apparel</texPath>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<apparel>
+			<tags>
+				<li>MandalorianBasic</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/Mandalorian/Simple/Apparel</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="MandalorianChestBase">
+		<defName>OuterRim_MandalorianChest_Traditional</defName>
+		<label>mandalorian cuirass (traditional)</label>
+		<description>Traditional minimal design of Mandalorian chestplate.</description>
+		<graphicData>
+			<texPath>OuterRim/Apparel/Mandalorian/Traditional/Apparel</texPath>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<apparel>
+			<tags>
+				<li>MandalorianBasic</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/Mandalorian/Traditional/Apparel</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="MandalorianChestBase">
+		<defName>OuterRim_MandalorianChest_NeoCrusader</defName>
+		<label>mandalorian cuirass (neo-crusader)</label>
+		<description>Ancient design of Mandalorian chestplate.</description>
+		<graphicData>
+			<texPath>OuterRim/Apparel/Mandalorian/NeoCrusader/Apparel</texPath>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<apparel>
+			<tags>
+				<li>MandalorianNeoCrusader</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/Mandalorian/NeoCrusader/Apparel</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="MandalorianChestBase">
+		<defName>OuterRim_MandalorianChest_NiteOwl</defName>
+		<label>mandalorian cuirass (nite owl)</label>
+		<description>Nite Owl design of Mandalorian chestplate.</description>
+		<graphicData>
+			<texPath>OuterRim/Apparel/Mandalorian/NiteOwl/Apparel</texPath>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<apparel>
+			<tags>
+				<li>MandalorianBasic</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/Mandalorian/NiteOwl/Apparel</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="MandalorianChestBase">
+		<defName>OuterRim_MandalorianChest_Heavy</defName>
+		<label>mandalorian cuirass (heavy)</label>
+		<description>Heavy design of Mandalorian chestplate.</description>
+		<graphicData>
+			<texPath>OuterRim/Apparel/Mandalorian/Heavy/Apparel</texPath>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<costStuffCount>100</costStuffCount>
+		<costList Inherit="False">
+			<OuterRim_ComponentHypertech>6</OuterRim_ComponentHypertech>
+		</costList>
+		<statBases>
+      		<StuffEffectMultiplierArmor>0.90</StuffEffectMultiplierArmor>
+		</statBases>
+		<apparel>
+			<tags>
+				<li>MandalorianHeavy</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/Mandalorian/Heavy/Apparel</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+	</ThingDef>
+
+</Defs>

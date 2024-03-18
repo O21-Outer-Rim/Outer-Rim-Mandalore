@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<ThingDef ParentName="ArmorMachineableBase" Name="MandalorianPauldronsBase" Abstract="True">
+		<techLevel>Ultra</techLevel>
+		<description>Simple design of Mandalorian pauldrons.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+			<researchPrerequisite>OuterRim_MandalorianArmory</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+            <recipeUsers Inherit="False">
+                <li>OuterRim_HypertechFabricator</li>
+            </recipeUsers>
+		</recipeMaker>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>40</costStuffCount>
+		<costList>
+			<OuterRim_ComponentHypertech>3</OuterRim_ComponentHypertech>
+		</costList>
+		<statBases>
+			<Mass>1</Mass>
+			<WorkToMake>10000</WorkToMake>
+			<MaxHitPoints>800</MaxHitPoints>
+      		<StuffEffectMultiplierArmor>0.8</StuffEffectMultiplierArmor>
+			<Insulation_Cold>20</Insulation_Cold>
+			<Insulation_Heat>20</Insulation_Heat>
+			<EquipDelay>1</EquipDelay>
+		</statBases>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<apparel>
+			<wearPerDay>0</wearPerDay>
+			<tags>
+				<li>MandalorianApparel</li>
+			</tags>
+			<useWornGraphicMask>false</useWornGraphicMask>
+			<layers>
+				<li>ShellExtra</li>
+			</layers>
+			<bodyPartGroups>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Hands</li>
+			</bodyPartGroups>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<tradeTags Inherit="False">
+			<li>OuterRim_Mandalorian_Apparel</li>
+		</tradeTags>
+	</ThingDef>
+	
+	<ThingDef ParentName="MandalorianPauldronsBase">
+		<defName>OuterRim_MandalorianPauldrons_Simple</defName>
+		<label>mandalorian pauldrons (simple)</label>
+		<graphicData>
+			<texPath>OuterRim/Apparel/Mandalorian/SimplePauldrons/Apparel</texPath>
+		</graphicData>
+		<apparel>
+			<tags>
+				<li>MandalorianBasic</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/Mandalorian/SimplePauldrons/Apparel</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="MandalorianPauldronsBase">
+		<defName>OuterRim_MandalorianPauldrons_Traditional</defName>
+		<label>mandalorian pauldrons (traditional)</label>
+		<graphicData>
+			<texPath>OuterRim/Apparel/Mandalorian/TraditionalPauldrons/Apparel</texPath>
+		</graphicData>
+		<apparel>
+			<tags>
+				<li>MandalorianBasic</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/Mandalorian/TraditionalPauldrons/Apparel</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="MandalorianPauldronsBase">
+		<defName>OuterRim_MandalorianPauldrons_NeoCrusader</defName>
+		<label>mandalorian pauldrons (neo-crusader)</label>
+		<description>Ancient design of Mandalorian pauldrons.</description>
+		<graphicData>
+			<texPath>OuterRim/Apparel/Mandalorian/NeoCrusaderPauldrons/Apparel</texPath>
+		</graphicData>
+		<apparel>
+			<tags>
+				<li>MandalorianNeoCrusader</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/Mandalorian/NeoCrusaderPauldrons/Apparel</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="MandalorianPauldronsBase">
+		<defName>OuterRim_MandalorianPauldrons_NiteOwl</defName>
+		<label>mandalorian pauldrons (nite owl)</label>
+		<description>Nite Owl design of Mandalorian pauldrons.</description>
+		<graphicData>
+			<texPath>OuterRim/Apparel/Mandalorian/NiteOwlPauldrons/Apparel</texPath>
+		</graphicData>
+		<apparel>
+			<tags>
+				<li>MandalorianBasic</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/Mandalorian/NiteOwlPauldrons/Apparel</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="MandalorianPauldronsBase">
+		<defName>OuterRim_MandalorianPauldrons_Heavy</defName>
+		<label>mandalorian pauldrons (heavy)</label>
+		<description>heavy design of Mandalorian pauldrons.</description>
+		<graphicData>
+			<texPath>OuterRim/Apparel/Mandalorian/HeavyPauldrons/Apparel</texPath>
+		</graphicData>
+		<costStuffCount>55</costStuffCount>
+		<costList Inherit="False">
+			<OuterRim_ComponentHypertech>4</OuterRim_ComponentHypertech>
+		</costList>
+		<statBases>
+      		<StuffEffectMultiplierArmor>0.90</StuffEffectMultiplierArmor>
+		</statBases>
+		<apparel>
+			<tags>
+				<li>MandalorianHeavy</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/Mandalorian/HeavyPauldrons/Apparel</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+</Defs>

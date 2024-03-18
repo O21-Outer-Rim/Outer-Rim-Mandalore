@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="OuterRimBlasterBase_Pistol">
+		<defName>OuterRim_IB94BlasterPistol</defName>
+		<label>ib-94 blaster pistol</label>
+		<description>A blaster pistol model, manufactured by BlasTech Industries, often used by Mandalorians and bounty hunters.</description>
+		<graphicData>
+			<texPath>OuterRim/Weapons/IB94Blaster</texPath>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>OuterRim_MandalorianArmory</researchPrerequisite>
+		</recipeMaker>
+		<weaponTags>
+			<li>ORMandalorian</li>
+			<li>ORMandalorianRanged</li>
+			<li>ORMandalorianPistol</li>
+		</weaponTags>
+		<tradeTags>
+			<li>OuterRim_Mandalorian_Weapons</li>
+		</tradeTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>OuterRim_Bullet_MandoPistol</defaultProjectile>
+				<warmupTime>1.0</warmupTime>
+				<range>26</range>
+				<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+				<burstShotCount>3</burstShotCount>
+				<soundCast>OuterRim_Shot_MediumBlasterBolt</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
+
+</Defs>

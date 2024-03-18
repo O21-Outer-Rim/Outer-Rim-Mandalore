@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="OuterRimMeleeBase_Blunt">
+		<defName>OuterRim_MandalorianHammer</defName>
+		<label>mandalorian hammer</label>
+		<description>A sturdy mandalorian smithing hammer, typically made from the beskar it was designed to shape.</description>
+		<graphicData>
+			<texPath>OuterRim/Weapons/BeskarHammer</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Cutout</shaderType>
+		</graphicData>
+		<equippedAngleOffset>-35</equippedAngleOffset>
+		<techLevel>Ultra</techLevel>
+		<statBases>
+			<WorkToMake>12000</WorkToMake>
+			<Mass>0.85</Mass>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>OuterRim_MandalorianArmory</researchPrerequisite>
+		</recipeMaker>
+		<weaponTags>
+			<li>ORMandalorianMelee</li>
+		</weaponTags>
+		<costStuffCount>50</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costList>
+			<OuterRim_ComponentHypertech>2</OuterRim_ComponentHypertech>
+		</costList>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>2.1</cooldownTime>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>24</power>
+				<cooldownTime>2.1</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+</Defs>

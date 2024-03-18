@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingSetMakerDef[defName="Reward_ItemsStandard"]/root/options/li[maxMarketValue=5500]/thingSetMaker/options</xpath>
+		<value>
+			<li>
+				<weight>40</weight>
+				<thingSetMaker Class="ThingSetMaker_Conditional_MakingFaction">
+					<makingFaction>OuterRim_MandalorianCrusaders</makingFaction>
+					<requireNonNull>true</requireNonNull>
+					<thingSetMaker Class="ThingSetMaker_MarketValue">
+						<fixedParams>
+							<qualityGenerator>Reward</qualityGenerator>
+							<allowNonStackableDuplicates>False</allowNonStackableDuplicates>
+							<filter>
+								<tradeTagsToAllow>
+									<li>OuterRim_Mandalorian_Apparel</li>
+									<li>OuterRim_Mandalorian_Weapons</li>
+									<li>OuterRim_RewardMandalorian</li>
+								</tradeTagsToAllow>
+							</filter>
+						</fixedParams>
+					</thingSetMaker>
+				</thingSetMaker>
+			</li>
+		</value>
+	</Operation>
+
+</Patch>

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<ThingDef ParentName="ArmorMachineableBase" Name="MandalorianHelmetBase" Abstract="True">
+		<techLevel>Ultra</techLevel>
+		<description>Simple design of Mandalorian helmet.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+			<researchPrerequisite>OuterRim_MandalorianArmory</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+            <recipeUsers Inherit="False">
+                <li>OuterRim_HypertechFabricator</li>
+            </recipeUsers>
+		</recipeMaker>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>60</costStuffCount>
+		<costList>
+			<OuterRim_ComponentHypertech>4</OuterRim_ComponentHypertech>
+		</costList>
+		<statBases>
+			<Mass>1</Mass>
+			<WorkToMake>10000</WorkToMake>
+			<MaxHitPoints>800</MaxHitPoints>
+      		<StuffEffectMultiplierArmor>0.8</StuffEffectMultiplierArmor>
+			<Insulation_Cold>20</Insulation_Cold>
+			<Insulation_Heat>20</Insulation_Heat>
+			<EquipDelay>1</EquipDelay>
+		</statBases>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<apparel>
+			<wearPerDay>0</wearPerDay>
+			<tags>
+				<li>MandalorianApparel</li>
+			</tags>
+			<useWornGraphicMask>false</useWornGraphicMask>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<tradeTags Inherit="False">
+			<li>OuterRim_Mandalorian_Apparel</li>
+		</tradeTags>
+	</ThingDef>
+	
+	<ThingDef ParentName="MandalorianHelmetBase">
+		<defName>OuterRim_MandalorianHelmet_Simple</defName>
+		<label>mandalorian helmet (simple)</label>
+		<graphicData>
+			<texPath>OuterRim/Apparel/Mandalorian/Helmets/Simple</texPath>
+		</graphicData>
+		<apparel>
+			<tags>
+				<li>MandalorianBasic</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/Mandalorian/Helmets/Simple</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="MandalorianHelmetBase">
+		<defName>OuterRim_MandalorianHelmet_Armorer</defName>
+		<label>mandalorian helmet (armorer)</label>
+		<graphicData>
+			<texPath>OuterRim/Apparel/Mandalorian/Helmets/Armourer</texPath>
+		</graphicData>
+		<apparel>
+			<tags>
+				<li>MandalorianArmorer</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/Mandalorian/Helmets/Armourer</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="MandalorianHelmetBase">
+		<defName>OuterRim_MandalorianHelmet_Traditional</defName>
+		<label>mandalorian helmet (traditional)</label>
+		<graphicData>
+			<texPath>OuterRim/Apparel/Mandalorian/Helmets/Standard</texPath>
+		</graphicData>
+		<apparel>
+			<tags>
+				<li>MandalorianBasic</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/Mandalorian/Helmets/Standard</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="MandalorianHelmetBase">
+		<defName>OuterRim_MandalorianHelmet_Pilot</defName>
+		<label>mandalorian helmet (pilot)</label>
+		<graphicData>
+			<texPath>OuterRim/Apparel/Mandalorian/Helmets/Pilot</texPath>
+		</graphicData>
+		<apparel>
+			<tags>
+				<li>MandalorianBasic</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/Mandalorian/Helmets/Pilot</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="MandalorianHelmetBase">
+		<defName>OuterRim_MandalorianHelmet_Imperial</defName>
+		<label>mandalorian helmet (imperial)</label>
+		<graphicData>
+			<texPath>OuterRim/Apparel/Mandalorian/Helmets/Imperial</texPath>
+			<color>(255, 255, 255)</color>
+		</graphicData>
+		<apparel>
+			<tags>
+				<li>MandalorianImperial</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/Mandalorian/Helmets/Imperial</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="MandalorianHelmetBase">
+		<defName>OuterRim_MandalorianHelmet_NeoCrusader</defName>
+		<label>mandalorian helmet (neo-crusader)</label>
+		<graphicData>
+			<texPath>OuterRim/Apparel/Mandalorian/NeoCrusader/Head</texPath>
+			<color>(255, 255, 255)</color>
+		</graphicData>
+		<apparel>
+			<tags>
+				<li>MandalorianNeoCrusader</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/Mandalorian/NeoCrusader/Head</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="MandalorianHelmetBase">
+		<defName>OuterRim_MandalorianHelmet_Executioner</defName>
+		<label>mandalorian helmet (executioner)</label>
+		<graphicData>
+			<texPath>OuterRim/Apparel/Mandalorian/Helmets/Executioner</texPath>
+			<color>(255, 255, 255)</color>
+		</graphicData>
+		<apparel>
+			<tags>
+				<li>MandalorianBasic</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/Mandalorian/Helmets/Executioner</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="MandalorianHelmetBase">
+		<defName>OuterRim_MandalorianHelmet_NiteOwl</defName>
+		<label>mandalorian helmet (nite owl)</label>
+		<graphicData>
+			<texPath>OuterRim/Apparel/Mandalorian/Helmets/NiteOwl</texPath>
+			<color>(255, 255, 255)</color>
+		</graphicData>
+		<apparel>
+			<tags>
+				<li>MandalorianBasic</li>
+				<li>MandalorianNiteOwl</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/Mandalorian/Helmets/NiteOwl</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="MandalorianHelmetBase">
+		<defName>OuterRim_MandalorianHelmet_NiteOwlAlt</defName>
+		<label>mandalorian helmet (nite owl alt)</label>
+		<graphicData>
+			<texPath>OuterRim/Apparel/Mandalorian/Helmets/NiteOwlAlt</texPath>
+			<color>(255, 255, 255)</color>
+		</graphicData>
+		<apparel>
+			<tags>
+				<li>MandalorianBasic</li>
+				<li>MandalorianNiteOwlAlt</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/Mandalorian/Helmets/NiteOwlAlt</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="MandalorianHelmetBase">
+		<defName>OuterRim_MandalorianHelmet_Tooka</defName>
+		<label>mandalorian helmet (tooka)</label>
+		<graphicData>
+			<texPath>OuterRim/Apparel/Mandalorian/Helmets/Tooka</texPath>
+			<color>(255, 255, 255)</color>
+		</graphicData>
+		<apparel>
+			<tags>
+				<li>MandalorianBasic</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/Mandalorian/Helmets/Tooka</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="MandalorianHelmetBase">
+		<defName>OuterRim_MandalorianHelmet_Powertech</defName>
+		<label>mandalorian helmet (powertech)</label>
+		<graphicData>
+			<texPath>OuterRim/Apparel/Mandalorian/Helmets/Powertech</texPath>
+			<color>(255, 255, 255)</color>
+		</graphicData>
+		<apparel>
+			<tags>
+				<li>MandalorianBasic</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/Mandalorian/Helmets/Powertech</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="MandalorianHelmetBase">
+		<defName>OuterRim_MandalorianHelmet_Heavy</defName>
+		<label>mandalorian helmet (heavy)</label>
+		<graphicData>
+			<texPath>OuterRim/Apparel/Mandalorian/Helmets/Heavy</texPath>
+			<color>(255, 255, 255)</color>
+		</graphicData>
+		<costStuffCount>80</costStuffCount>
+		<costList Inherit="False">
+			<OuterRim_ComponentHypertech>6</OuterRim_ComponentHypertech>
+		</costList>
+		<statBases>
+      		<StuffEffectMultiplierArmor>0.90</StuffEffectMultiplierArmor>
+		</statBases>
+		<apparel>
+			<tags>
+				<li>MandalorianHeavy</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/Mandalorian/Helmets/Heavy</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="MandalorianHelmetBase">
+		<defName>OuterRim_MandalorianHelmet_RetroCrusader</defName>
+		<label>mandalorian helmet (retro crusader)</label>
+		<graphicData>
+			<texPath>OuterRim/Apparel/Mandalorian/Helmets/RetroCrusader</texPath>
+			<color>(255, 255, 255)</color>
+		</graphicData>
+		<apparel>
+			<tags>
+				<li>MandalorianRetro</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/Mandalorian/Helmets/RetroCrusader</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+</Defs>

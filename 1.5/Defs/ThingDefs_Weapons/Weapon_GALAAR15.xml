@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="OuterRimBlasterBase_Rifle">
+		<defName>OuterRim_GALAAR15Blaster</defName>
+		<label>galaar-15 blaster carbine</label>
+		<description>A blaster carbine model commonly used by the Mandalorians.</description>
+		<graphicData>
+			<texPath>OuterRim/Weapons/GALAAR15</texPath>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>OuterRim_MandalorianArmory</researchPrerequisite>
+		</recipeMaker>
+		<weaponTags>
+			<li>ORMandalorian</li>
+			<li>ORMandalorianRanged</li>
+			<li>ORMandalorianRifle</li>
+		</weaponTags>
+		<tradeTags>
+			<li>OuterRim_Mandalorian_Weapons</li>
+		</tradeTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>OuterRim_Bullet_MandoCarbine</defaultProjectile>
+				<warmupTime>1.1</warmupTime>
+				<range>30</range>
+				<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+				<burstShotCount>4</burstShotCount>
+				<soundCast>OuterRim_Shot_RepeaterBlasterBolt</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
+
+</Defs>

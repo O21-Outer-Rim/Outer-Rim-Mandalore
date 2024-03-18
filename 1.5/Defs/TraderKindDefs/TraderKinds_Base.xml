@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<TraderKindDef ParentName="OuterRim_TraderBaseBase">
+		<defName>OuterRim_DeathWatch_Base</defName>
+		<faction>OuterRim_DeathWatch</faction>
+		<stockGenerators>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>OuterRim_Beskar</thingDef>
+				<countRange>-150~150</countRange>
+			</li>
+			<!-- Weapons -->
+			<li Class="StockGenerator_Tag">
+				<tradeTag>OuterRim_Mandalorian_Weapons</tradeTag>
+				<thingDefCountRange>3~6</thingDefCountRange>
+				<countRange>4~8</countRange>
+			</li>
+		</stockGenerators>
+	</TraderKindDef>
+
+	<TraderKindDef ParentName="OuterRim_TraderCaravanBase">
+		<defName>OuterRim_DeathWatch_Caravan</defName>
+		<faction>OuterRim_DeathWatch</faction>
+		<stockGenerators>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>OuterRim_Beskar</thingDef>
+				<countRange>-100~100</countRange>
+			</li>
+			<!-- Weapons -->
+			<li Class="StockGenerator_Tag">
+				<tradeTag>OuterRim_Mandalorian_Weapons</tradeTag>
+				<thingDefCountRange>3~6</thingDefCountRange>
+				<countRange>3~5</countRange>
+			</li>
+		</stockGenerators>
+	</TraderKindDef>
+
+	<TraderKindDef ParentName="OuterRim_TraderVisitorBase">
+		<defName>OuterRim_DeathWatch_Visitor</defName>
+		<faction>OuterRim_DeathWatch</faction>
+		<stockGenerators>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>OuterRim_Beskar</thingDef>
+				<countRange>-50~50</countRange>
+			</li>
+		</stockGenerators>
+	</TraderKindDef>
+
+</Defs>

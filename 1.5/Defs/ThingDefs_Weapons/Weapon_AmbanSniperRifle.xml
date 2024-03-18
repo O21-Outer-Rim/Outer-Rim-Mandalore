@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="OuterRimBlasterBase_SniperRifle">
+		<defName>OuterRim_AmbanSniperRifle</defName>
+		<label>amban sniper rifle</label>
+		<description>A model of disruptor sniper rifle, capable of disintegrations, typically used by Mandalorians and bounty hunters.</description>
+		<graphicData>
+			<texPath>OuterRim/Weapons/AmbanSniperRifle</texPath>
+			<drawSize>1.15</drawSize>	
+		</graphicData>
+    	<equippedAngleOffset>45</equippedAngleOffset>
+		<recipeMaker>
+			<researchPrerequisite>OuterRim_MandalorianArmory</researchPrerequisite>
+		</recipeMaker>
+		<weaponTags>
+			<li>ORMandalorian</li>
+			<li>ORMandalorianRanged</li>
+			<li>ORMandalorianRifleStrong</li>
+		</weaponTags>
+		<tradeTags>
+			<li>OuterRim_Mandalorian_Weapons</li>
+		</tradeTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>OuterRim_Bullet_MandoRifle</defaultProjectile>
+				<warmupTime>1.3</warmupTime>
+				<range>46</range>
+				<soundCast>OuterRim_Shot_DisintigratorBolt</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
+
+</Defs>

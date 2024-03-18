@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="OuterRim_JetpackBase">
+		<defName>OuterRim_Z6Jetpack</defName>
+		<label>z-6 jetpack</label>
+		<description>A model of jetpack commonly used by many Mandalorians.</description>
+		<graphicData>
+			<texPath>OuterRim/Apparel/Mandalorian/Jetpacks/Z6Jetpack/Apparel</texPath>
+		</graphicData>
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<wornGraphicPath>OuterRim/Apparel/Mandalorian/Jetpacks/Z6Jetpack/Apparel</wornGraphicPath>
+			<tags>
+				<li>MandalorianJetpack</li>
+			</tags>
+		</apparel>
+		<comps>
+			<li Class="VFECore.Abilities.CompProperties_AbilitiesApparel">
+				<abilities>
+					<li>OuterRim_Z6JetpackJump</li>
+				</abilities>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<VFECore.Abilities.AbilityDef ParentName="OuterRimJetpackAbilityBase">
+		<defName>OuterRim_Z6JetpackJump</defName>
+		<iconPath>OuterRim/Apparel/Mandalorian/Jetpacks/Z6Jetpack/Apparel</iconPath>
+	</VFECore.Abilities.AbilityDef>
+
+	<ThingDef ParentName="OuterRim_JetpackBase">
+		<defName>OuterRim_SupercommandoJetpack</defName>
+		<label>supercommando jetpack</label>
+		<description>A model of jetpack used by Mandalorian Supercommandos.</description>
+		<graphicData>
+			<texPath>OuterRim/Apparel/Mandalorian/Jetpacks/Compact/Apparel</texPath>
+		</graphicData>
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<wornGraphicPath>OuterRim/Apparel/Mandalorian/Jetpacks/Compact/Apparel</wornGraphicPath>
+			<tags>
+				<li>MandalorianJetpack</li>
+			</tags>
+		</apparel>
+		<comps>
+			<li Class="VFECore.Abilities.CompProperties_AbilitiesApparel">
+				<abilities>
+					<li>OuterRim_SupercommandoJetpackJump</li>
+				</abilities>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<VFECore.Abilities.AbilityDef ParentName="OuterRimJetpackAbilityBase">
+		<defName>OuterRim_SupercommandoJetpackJump</defName>
+		<iconPath>OuterRim/Apparel/Mandalorian/Jetpacks/Compact/Apparel</iconPath>
+	</VFECore.Abilities.AbilityDef>
+
+</Defs>

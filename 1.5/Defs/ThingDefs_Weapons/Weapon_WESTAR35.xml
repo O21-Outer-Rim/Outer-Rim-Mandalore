@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="OuterRimBlasterBase_Pistol">
+		<defName>OuterRim_WESTAR35Blaster</defName>
+		<label>westar-35 blaster pistol</label>
+		<description>A blaster pistol model commonly used by the Mandalorians.</description>
+		<graphicData>
+			<texPath>OuterRim/Weapons/WESTAR35</texPath>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>OuterRim_MandalorianArmory</researchPrerequisite>
+		</recipeMaker>
+		<weaponTags>
+			<li>ORMandalorian</li>
+			<li>ORMandalorianRanged</li>
+			<li>ORMandalorianPistol</li>
+		</weaponTags>
+		<tradeTags>
+			<li>OuterRim_Mandalorian_Weapons</li>
+		</tradeTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>OuterRim_Bullet_MandoPistol</defaultProjectile>
+				<warmupTime>0.6</warmupTime>
+				<range>26</range>
+				<soundCast>OuterRim_Shot_RepeaterBlasterBolt</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
+
+</Defs>
