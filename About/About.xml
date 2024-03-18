@@ -4,6 +4,7 @@
 	<description>Outer Rim module adding Mandalorians and several factions with different styles, and ideals.</description>
 	<author>Neronix17</author>
 	<packageId>Neronix17.OuterRim.Mandalore</packageId>
+	<modIconPath IgnoreIfNoMatchingField="True">OuterRim/ModIcon</modIconPath>
 	<url>https://www.patreon.com/neronix17</url>
 	<supportedVersions>
 		<li>1.4</li>
