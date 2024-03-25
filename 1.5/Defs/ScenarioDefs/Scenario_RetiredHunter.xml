@@ -32,11 +32,6 @@
 				<!-- Player starting things -->
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
-					<thingDef>OuterRim_ResearchCore_Mandalorian</thingDef>
-					<count>1</count>
-				</li>
-				<li Class="ScenPart_StartingThing_Defined">
-					<def>StartingThing_Defined</def>
 					<thingDef>OuterRim_EE13BlasterRifle</thingDef>
 					<count>1</count>
 				</li>

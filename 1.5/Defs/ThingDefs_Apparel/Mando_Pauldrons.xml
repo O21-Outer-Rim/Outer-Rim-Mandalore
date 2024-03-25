@@ -9,7 +9,7 @@
 		</graphicData>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
-			<researchPrerequisite>OuterRim_MandalorianArmory</researchPrerequisite>
+			<researchPrerequisite>OuterRim_HeavyArmour</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>8</Crafting>
 			</skillRequirements>

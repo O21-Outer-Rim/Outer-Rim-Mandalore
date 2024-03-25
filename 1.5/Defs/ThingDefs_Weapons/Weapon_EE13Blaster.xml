@@ -8,9 +8,6 @@
 		<graphicData>
 			<texPath>OuterRim/Weapons/EE13Blaster</texPath>
 		</graphicData>
-		<recipeMaker>
-			<researchPrerequisite>OuterRim_MandalorianArmory</researchPrerequisite>
-		</recipeMaker>
 		<weaponTags>
 			<li>ORMandalorian</li>
 			<li>ORMandalorianRanged</li>

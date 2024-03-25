@@ -16,9 +16,6 @@
 			<WorkToMake>12000</WorkToMake>
 			<Mass>0.85</Mass>
 		</statBases>
-		<recipeMaker>
-			<researchPrerequisite>OuterRim_MandalorianArmory</researchPrerequisite>
-		</recipeMaker>
 		<weaponTags>
 			<li>ORMandalorianMelee</li>
 		</weaponTags>

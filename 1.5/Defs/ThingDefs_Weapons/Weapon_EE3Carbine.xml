@@ -9,9 +9,6 @@
 			<texPath>OuterRim/Weapons/EE3Carbine</texPath>
 		</graphicData>
 		<equippedAngleOffset>45</equippedAngleOffset>
-		<recipeMaker>
-			<researchPrerequisite>OuterRim_MandalorianArmory</researchPrerequisite>
-		</recipeMaker>
 		<weaponTags>
 			<li>ORMandalorian</li>
 			<li>ORMandalorianRanged</li>

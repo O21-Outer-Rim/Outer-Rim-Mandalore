@@ -23,9 +23,6 @@
 		<tradeTags>
 			<li>OuterRim_Mandalorian_Weapons</li>
 		</tradeTags>
-		<recipeMaker>
-			<researchPrerequisite>OuterRim_MandalorianArmory</researchPrerequisite>
-		</recipeMaker>
 		<costStuffCount>60</costStuffCount>
 		<stuffCategories>
 			<li>Metallic</li>

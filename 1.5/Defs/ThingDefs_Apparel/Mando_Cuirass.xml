@@ -9,9 +9,9 @@
 		</graphicData>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
-			<researchPrerequisite>OuterRim_MandalorianArmory</researchPrerequisite>
+			<researchPrerequisite>OuterRim_HeavyArmour</researchPrerequisite>
 			<skillRequirements>
-				<Crafting>8</Crafting>
+				<Crafting>10</Crafting>
 			</skillRequirements>
             <recipeUsers Inherit="False">
                 <li>OuterRim_HypertechFabricator</li>
