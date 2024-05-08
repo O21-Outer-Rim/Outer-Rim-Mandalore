@@ -61,7 +61,7 @@
 	
 	<ThingDef ParentName="MandalorianChestBase">
 		<defName>OuterRim_MandalorianChest_Simple</defName>
-		<label>mandalorian cuirass (simple)</label>
+		<label>mando cuirass (simple)</label>
 		<description>Simple modest design of Mandalorian chestplate.</description>
 		<graphicData>
 			<texPath>OuterRim/Apparel/Mandalorian/Simple/Apparel</texPath>
@@ -78,7 +78,7 @@
 	
 	<ThingDef ParentName="MandalorianChestBase">
 		<defName>OuterRim_MandalorianChest_Traditional</defName>
-		<label>mandalorian cuirass (traditional)</label>
+		<label>mando cuirass (traditional)</label>
 		<description>Traditional minimal design of Mandalorian chestplate.</description>
 		<graphicData>
 			<texPath>OuterRim/Apparel/Mandalorian/Traditional/Apparel</texPath>
@@ -95,7 +95,7 @@
 	
 	<ThingDef ParentName="MandalorianChestBase">
 		<defName>OuterRim_MandalorianChest_NeoCrusader</defName>
-		<label>mandalorian cuirass (neo-crusader)</label>
+		<label>mando cuirass (neo-crusader)</label>
 		<description>Ancient design of Mandalorian chestplate.</description>
 		<graphicData>
 			<texPath>OuterRim/Apparel/Mandalorian/NeoCrusader/Apparel</texPath>
@@ -112,7 +112,7 @@
 	
 	<ThingDef ParentName="MandalorianChestBase">
 		<defName>OuterRim_MandalorianChest_NiteOwl</defName>
-		<label>mandalorian cuirass (nite owl)</label>
+		<label>mando cuirass (nite owl)</label>
 		<description>Nite Owl design of Mandalorian chestplate.</description>
 		<graphicData>
 			<texPath>OuterRim/Apparel/Mandalorian/NiteOwl/Apparel</texPath>
@@ -129,7 +129,7 @@
 	
 	<ThingDef ParentName="MandalorianChestBase">
 		<defName>OuterRim_MandalorianChest_Heavy</defName>
-		<label>mandalorian cuirass (heavy)</label>
+		<label>mando cuirass (heavy)</label>
 		<description>Heavy design of Mandalorian chestplate.</description>
 		<graphicData>
 			<texPath>OuterRim/Apparel/Mandalorian/Heavy/Apparel</texPath>

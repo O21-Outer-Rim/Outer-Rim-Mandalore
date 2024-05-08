@@ -61,7 +61,7 @@
 	
 	<ThingDef ParentName="MandalorianPauldronsBase">
 		<defName>OuterRim_MandalorianPauldrons_Simple</defName>
-		<label>mandalorian pauldrons (simple)</label>
+		<label>mando pauldrons (simple)</label>
 		<graphicData>
 			<texPath>OuterRim/Apparel/Mandalorian/SimplePauldrons/Apparel</texPath>
 		</graphicData>
@@ -75,7 +75,8 @@
 	
 	<ThingDef ParentName="MandalorianPauldronsBase">
 		<defName>OuterRim_MandalorianPauldrons_Traditional</defName>
-		<label>mandalorian pauldrons (traditional)</label>
+		<label>mando pauldrons (traditional)</label>
+		<description>Traditional design of Mandalorian pauldrons.</description>
 		<graphicData>
 			<texPath>OuterRim/Apparel/Mandalorian/TraditionalPauldrons/Apparel</texPath>
 		</graphicData>
@@ -89,7 +90,7 @@
 	
 	<ThingDef ParentName="MandalorianPauldronsBase">
 		<defName>OuterRim_MandalorianPauldrons_NeoCrusader</defName>
-		<label>mandalorian pauldrons (neo-crusader)</label>
+		<label>mando pauldrons (neo-crusader)</label>
 		<description>Ancient design of Mandalorian pauldrons.</description>
 		<graphicData>
 			<texPath>OuterRim/Apparel/Mandalorian/NeoCrusaderPauldrons/Apparel</texPath>
@@ -104,7 +105,7 @@
 	
 	<ThingDef ParentName="MandalorianPauldronsBase">
 		<defName>OuterRim_MandalorianPauldrons_NiteOwl</defName>
-		<label>mandalorian pauldrons (nite owl)</label>
+		<label>mando pauldrons (nite owl)</label>
 		<description>Nite Owl design of Mandalorian pauldrons.</description>
 		<graphicData>
 			<texPath>OuterRim/Apparel/Mandalorian/NiteOwlPauldrons/Apparel</texPath>
@@ -119,7 +120,7 @@
 	
 	<ThingDef ParentName="MandalorianPauldronsBase">
 		<defName>OuterRim_MandalorianPauldrons_Heavy</defName>
-		<label>mandalorian pauldrons (heavy)</label>
+		<label>mando pauldrons (heavy)</label>
 		<description>heavy design of Mandalorian pauldrons.</description>
 		<graphicData>
 			<texPath>OuterRim/Apparel/Mandalorian/HeavyPauldrons/Apparel</texPath>

@@ -34,7 +34,7 @@
 			<EquipDelay>1</EquipDelay>
 		</statBases>
 		<thingCategories>
-			<li>ApparelArmor</li>
+			<li>ArmorHeadgear</li>
 		</thingCategories>
 		<apparel>
 			<wearPerDay>0</wearPerDay>
@@ -59,7 +59,7 @@
 	
 	<ThingDef ParentName="MandalorianHelmetBase">
 		<defName>OuterRim_MandalorianHelmet_Simple</defName>
-		<label>mandalorian helmet (simple)</label>
+		<label>mando helmet (simple)</label>
 		<graphicData>
 			<texPath>OuterRim/Apparel/Mandalorian/Helmets/Simple</texPath>
 		</graphicData>
@@ -73,7 +73,7 @@
 	
 	<ThingDef ParentName="MandalorianHelmetBase">
 		<defName>OuterRim_MandalorianHelmet_Armorer</defName>
-		<label>mandalorian helmet (armorer)</label>
+		<label>mando helmet (armorer)</label>
 		<graphicData>
 			<texPath>OuterRim/Apparel/Mandalorian/Helmets/Armourer</texPath>
 		</graphicData>
@@ -87,7 +87,7 @@
 	
 	<ThingDef ParentName="MandalorianHelmetBase">
 		<defName>OuterRim_MandalorianHelmet_Traditional</defName>
-		<label>mandalorian helmet (traditional)</label>
+		<label>mando helmet (traditional)</label>
 		<graphicData>
 			<texPath>OuterRim/Apparel/Mandalorian/Helmets/Standard</texPath>
 		</graphicData>
@@ -101,7 +101,7 @@
 	
 	<ThingDef ParentName="MandalorianHelmetBase">
 		<defName>OuterRim_MandalorianHelmet_Pilot</defName>
-		<label>mandalorian helmet (pilot)</label>
+		<label>mando helmet (pilot)</label>
 		<graphicData>
 			<texPath>OuterRim/Apparel/Mandalorian/Helmets/Pilot</texPath>
 		</graphicData>
@@ -115,7 +115,7 @@
 	
 	<ThingDef ParentName="MandalorianHelmetBase">
 		<defName>OuterRim_MandalorianHelmet_Imperial</defName>
-		<label>mandalorian helmet (imperial)</label>
+		<label>mando helmet (imperial)</label>
 		<graphicData>
 			<texPath>OuterRim/Apparel/Mandalorian/Helmets/Imperial</texPath>
 			<color>(255, 255, 255)</color>
@@ -130,7 +130,7 @@
 	
 	<ThingDef ParentName="MandalorianHelmetBase">
 		<defName>OuterRim_MandalorianHelmet_NeoCrusader</defName>
-		<label>mandalorian helmet (neo-crusader)</label>
+		<label>mando helmet (neo-crusader)</label>
 		<graphicData>
 			<texPath>OuterRim/Apparel/Mandalorian/NeoCrusader/Head</texPath>
 			<color>(255, 255, 255)</color>
@@ -145,7 +145,7 @@
 	
 	<ThingDef ParentName="MandalorianHelmetBase">
 		<defName>OuterRim_MandalorianHelmet_Executioner</defName>
-		<label>mandalorian helmet (executioner)</label>
+		<label>mando helmet (executioner)</label>
 		<graphicData>
 			<texPath>OuterRim/Apparel/Mandalorian/Helmets/Executioner</texPath>
 			<color>(255, 255, 255)</color>
@@ -160,7 +160,7 @@
 	
 	<ThingDef ParentName="MandalorianHelmetBase">
 		<defName>OuterRim_MandalorianHelmet_NiteOwl</defName>
-		<label>mandalorian helmet (nite owl)</label>
+		<label>mando helmet (nite owl)</label>
 		<graphicData>
 			<texPath>OuterRim/Apparel/Mandalorian/Helmets/NiteOwl</texPath>
 			<color>(255, 255, 255)</color>
@@ -176,7 +176,7 @@
 	
 	<ThingDef ParentName="MandalorianHelmetBase">
 		<defName>OuterRim_MandalorianHelmet_NiteOwlAlt</defName>
-		<label>mandalorian helmet (nite owl alt)</label>
+		<label>mando helmet (nite owl alt)</label>
 		<graphicData>
 			<texPath>OuterRim/Apparel/Mandalorian/Helmets/NiteOwlAlt</texPath>
 			<color>(255, 255, 255)</color>
@@ -192,7 +192,7 @@
 	
 	<ThingDef ParentName="MandalorianHelmetBase">
 		<defName>OuterRim_MandalorianHelmet_Tooka</defName>
-		<label>mandalorian helmet (tooka)</label>
+		<label>mando helmet (tooka)</label>
 		<graphicData>
 			<texPath>OuterRim/Apparel/Mandalorian/Helmets/Tooka</texPath>
 			<color>(255, 255, 255)</color>
@@ -207,7 +207,7 @@
 	
 	<ThingDef ParentName="MandalorianHelmetBase">
 		<defName>OuterRim_MandalorianHelmet_Powertech</defName>
-		<label>mandalorian helmet (powertech)</label>
+		<label>mando helmet (powertech)</label>
 		<graphicData>
 			<texPath>OuterRim/Apparel/Mandalorian/Helmets/Powertech</texPath>
 			<color>(255, 255, 255)</color>
@@ -222,7 +222,7 @@
 	
 	<ThingDef ParentName="MandalorianHelmetBase">
 		<defName>OuterRim_MandalorianHelmet_Heavy</defName>
-		<label>mandalorian helmet (heavy)</label>
+		<label>mando helmet (heavy)</label>
 		<graphicData>
 			<texPath>OuterRim/Apparel/Mandalorian/Helmets/Heavy</texPath>
 			<color>(255, 255, 255)</color>
@@ -244,7 +244,7 @@
 	
 	<ThingDef ParentName="MandalorianHelmetBase">
 		<defName>OuterRim_MandalorianHelmet_RetroCrusader</defName>
-		<label>mandalorian helmet (retro crusader)</label>
+		<label>mando helmet (retro crusader)</label>
 		<graphicData>
 			<texPath>OuterRim/Apparel/Mandalorian/Helmets/RetroCrusader</texPath>
 			<color>(255, 255, 255)</color>
