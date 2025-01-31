@@ -232,7 +232,7 @@
 			<OuterRim_ComponentHypertech>6</OuterRim_ComponentHypertech>
 		</costList>
 		<statBases>
-      		<StuffEffectMultiplierArmor>0.90</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierArmor>0.90</StuffEffectMultiplierArmor>
 		</statBases>
 		<apparel>
 			<tags>
@@ -254,6 +254,21 @@
 				<li>MandalorianRetro</li>
 			</tags>
 			<wornGraphicPath>OuterRim/Apparel/Mandalorian/Helmets/RetroCrusader</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="MandalorianHelmetBase">
+		<defName>OuterRim_MandalorianHelmet_Maul</defName>
+		<label>mando helmet (maul)</label>
+		<graphicData>
+			<texPath>OuterRim/Apparel/Mandalorian/Helmets/Maul</texPath>
+			<color>(255, 255, 255)</color>
+		</graphicData>
+		<apparel>
+			<tags>
+				<li>MandalorianMaul</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/Mandalorian/Helmets/Maul</wornGraphicPath>
 		</apparel>
 	</ThingDef>
 
