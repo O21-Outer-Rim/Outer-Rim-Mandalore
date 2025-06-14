@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="OuterRim_DecalBase" Name="OuterRim_Decals_Mandalorian" Abstract="True">
+		<graphicData>
+			<drawSize>(3, 3)</drawSize>
+		</graphicData>
+		<size>(3, 3)</size>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>OuterRim_SubCatDecalsMandalorians</subCategory>
+				<showOnlyInCategory>true</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Mandalorian">
+		<defName>OuterRim_Decal_MandoBravery</defName>
+		<label>Mando Decal (Bravery)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Mandalorians/Bravery</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Mandalorian">
+		<defName>OuterRim_Decal_MandoClanEldar</defName>
+		<label>Mando Decal (Clan Eldar)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Mandalorians/ClanEldar</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Mandalorian">
+		<defName>OuterRim_Decal_MandoClanMudhorn</defName>
+		<label>Mando Decal (Clan Mudhorn)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Mandalorians/ClanMudhorn</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Mandalorian">
+		<defName>OuterRim_Decal_MandoClanRook</defName>
+		<label>Mando Decal (Clan Rook)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Mandalorians/ClanRook</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Mandalorian">
+		<defName>OuterRim_Decal_MandoClanVizsla</defName>
+		<label>Mando Decal (Clan Vizsla)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Mandalorians/ClanVizsla</texPath>
+		</graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="OuterRim_Decals_Mandalorian">
+		<defName>OuterRim_Decal_MandoHonor</defName>
+		<label>Mando Decal (Honor)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Mandalorians/Honor</texPath>
+		</graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="OuterRim_Decals_Mandalorian">
+		<defName>OuterRim_Decal_MandoJaigEyes</defName>
+		<label>Mando Decal (Jaig Eyes)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Mandalorians/JaigEyes</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Mandalorian">
+		<defName>OuterRim_Decal_MandoLoyalty</defName>
+		<label>Mando Decal (Loyalty)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Mandalorians/Loyalty</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Mandalorian">
+		<defName>OuterRim_Decal_MandoGuard</defName>
+		<label>Mando Decal (Mandalorian Guard)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Mandalorians/MandalorianGuard</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Mandalorian">
+		<defName>OuterRim_Decal_MandoProtectors</defName>
+		<label>Mando Decal (Protectors)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Mandalorians/MandalorianProtectors</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Mandalorian">
+		<defName>OuterRim_Decal_MandoMythosaur</defName>
+		<label>Mando Decal (Mythosaur)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Mandalorians/Mandalorians</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Mandalorian">
+		<defName>OuterRim_Decal_MandoSecretService</defName>
+		<label>Mando Decal (Secret Service)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Mandalorians/MandalorianSecretService</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Mandalorian">
+		<defName>OuterRim_Decal_MandoMight</defName>
+		<label>Mando Decal (Might)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Mandalorians/Might</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Mandalorian">
+		<defName>OuterRim_Decal_MandoNiteOwls</defName>
+		<label>Mando Decal (Nite Owls)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Mandalorians/NiteOwls</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="OuterRim_Decals_Mandalorian">
+		<defName>OuterRim_Decal_MandoWisdom</defName>
+		<label>Mando Decal (Wisdom)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/Decals/Mandalorians/Wisdom</texPath>
+		</graphicData>
+	</ThingDef>
+
+</Defs>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<VFECore.Misc.HireableFactionDef>
+		<defName>OuterRim_DeathWatch</defName>
+		<description>A group of Mandalorians that think themselves traditionalists. Others generally see the Death Watch as a group of terrorists, or mercenaries.</description>
+		<texPath>OuterRim/UI/Icons/DeathWatchIcon</texPath>
+		<color>(179, 61, 35)</color>
+		<pawnKinds>
+			<li>OuterRim_DeathWatch_MeleeMerc</li>
+			<li>OuterRim_DeathWatch_LightMerc</li>
+			<li>OuterRim_DeathWatch_MediumMerc</li>
+			<li>OuterRim_DeathWatch_HeavyMerc</li>
+		</pawnKinds>
+		<commTag>Death Watch</commTag>
+		<referencedFaction>OuterRim_DeathWatch</referencedFaction>
+	</VFECore.Misc.HireableFactionDef>
+
+	<PawnKindDef ParentName="BaseDeathWatchPawn">
+		<defName>OuterRim_DeathWatch_MeleeMerc</defName>
+		<label>mandalorian (melee)</label>
+		<weaponTags>
+			<li>ORMandalorianMelee</li>
+		</weaponTags>
+		<apparelTags>
+			<li>MandalorianJetpack</li>
+		</apparelTags>
+		<apparelRequired Inherit="False">
+			<li>OuterRim_Bodysuit</li>
+			<li>OuterRim_MandalorianChest_Traditional</li>
+			<li>OuterRim_MandalorianHelmet_Traditional</li>
+			<li>OuterRim_MandalorianPauldrons_Traditional</li>
+		</apparelRequired>
+		<combatPower>140</combatPower>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="BaseDeathWatchPawn">
+		<defName>OuterRim_DeathWatch_LightMerc</defName>
+		<label>mandalorian (light)</label>
+		<weaponTags>
+			<li>ORMandalorianPistol</li>
+		</weaponTags>
+		<apparelTags>
+			<li>MandalorianJetpack</li>
+		</apparelTags>
+		<apparelRequired Inherit="False">
+			<li>OuterRim_Bodysuit</li>
+			<li>OuterRim_MandalorianChest_Traditional</li>
+			<li>OuterRim_MandalorianHelmet_Traditional</li>
+			<li>OuterRim_MandalorianPauldrons_Traditional</li>
+		</apparelRequired>
+		<combatPower>180</combatPower>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="BaseDeathWatchPawn">
+		<defName>OuterRim_DeathWatch_MediumMerc</defName>
+		<label>mandalorian (medium)</label>
+		<weaponTags>
+			<li>ORMandalorianRifle</li>
+		</weaponTags>
+		<apparelTags>
+			<li>MandalorianJetpack</li>
+		</apparelTags>
+		<apparelRequired Inherit="False">
+			<li>OuterRim_Bodysuit</li>
+			<li>OuterRim_MandalorianChest_Traditional</li>
+			<li>OuterRim_MandalorianHelmet_Traditional</li>
+			<li>OuterRim_MandalorianPauldrons_Traditional</li>
+		</apparelRequired>
+		<combatPower>220</combatPower>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="BaseDeathWatchPawn">
+		<defName>OuterRim_DeathWatch_HeavyMerc</defName>
+		<label>mandalorian (heavy)</label>
+		<weaponTags>
+			<li>ORMandalorianRifleStrong</li>
+		</weaponTags>
+		<apparelTags>
+			<li>MandalorianJetpack</li>
+		</apparelTags>
+		<apparelRequired Inherit="False">
+			<li>OuterRim_Bodysuit</li>
+			<li>OuterRim_MandalorianChest_Traditional</li>
+			<li>OuterRim_MandalorianHelmet_Traditional</li>
+			<li>OuterRim_MandalorianPauldrons_Traditional</li>
+		</apparelRequired>
+		<combatPower>260</combatPower>
+	</PawnKindDef>
+
+</Defs>

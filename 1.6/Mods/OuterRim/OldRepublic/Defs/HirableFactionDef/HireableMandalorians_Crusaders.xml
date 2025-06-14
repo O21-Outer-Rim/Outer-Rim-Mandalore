@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<VFECore.Misc.HireableFactionDef>
+		<defName>OuterRim_Crusader</defName>
+		<description>A group of Mandalorians that think themselves traditionalists. Others generally see the Death Watch as a group of terrorists, or mercenaries.</description>
+		<texPath>OuterRim/UI/Icons/NeoCrusaderIcon</texPath>
+		<color>(179, 61, 35)</color>
+		<pawnKinds>
+			<li>OuterRim_Crusader_MeleeMerc</li>
+			<li>OuterRim_Crusader_LightMerc</li>
+			<li>OuterRim_Crusader_MediumMerc</li>
+			<li>OuterRim_Crusader_HeavyMerc</li>
+		</pawnKinds>
+		<commTag>Neo-Crusaders</commTag>
+		<referencedFaction>OuterRim_MandalorianCrusaders</referencedFaction>
+	</VFECore.Misc.HireableFactionDef>
+
+	<PawnKindDef ParentName="BaseMandoCrusaderPawn">
+		<defName>OuterRim_Crusader_MeleeMerc</defName>
+		<label>mandalorian (melee)</label>
+		<weaponTags>
+			<li>ORMandalorianMelee</li>
+		</weaponTags>
+		<apparelTags>
+			<li>MandalorianJetpack</li>
+		</apparelTags>
+		<apparelRequired Inherit="False">
+			<li>OuterRim_Bodysuit</li>
+			<li>OuterRim_MandalorianChest_NeoCrusader</li>
+			<li>OuterRim_MandalorianHelmet_NeoCrusader</li>
+			<li>OuterRim_MandalorianPauldrons_NeoCrusader</li>
+		</apparelRequired>
+		<combatPower>140</combatPower>
+		<specificApparelRequirements>
+			<li>
+				<apparelLayer>Middle</apparelLayer>
+				<color>(176, 90, 90)</color>
+				<stuff>OuterRim_Beskar</stuff>
+			</li>
+			<li>
+				<apparelLayer>Belt</apparelLayer>
+				<color>(176, 90, 90)</color>
+			</li>
+			<li>
+				<apparelLayer>ShellExtra</apparelLayer>
+				<color>(176, 90, 90)</color>
+				<stuff>OuterRim_Beskar</stuff>
+			</li>
+			<li>
+				<apparelLayer>Overhead</apparelLayer>
+				<color>(176, 90, 90)</color>
+				<stuff>OuterRim_Beskar</stuff>
+			</li>
+		</specificApparelRequirements>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="BaseMandoCrusaderPawn">
+		<defName>OuterRim_Crusader_LightMerc</defName>
+		<label>mandalorian (light)</label>
+		<weaponTags>
+			<li>ORMandalorianPistol</li>
+		</weaponTags>
+		<apparelTags>
+			<li>MandalorianJetpack</li>
+		</apparelTags>
+		<apparelRequired Inherit="False">
+			<li>OuterRim_Bodysuit</li>
+			<li>OuterRim_MandalorianChest_NeoCrusader</li>
+			<li>OuterRim_MandalorianHelmet_NeoCrusader</li>
+			<li>OuterRim_MandalorianPauldrons_NeoCrusader</li>
+		</apparelRequired>
+		<combatPower>180</combatPower>
+		<specificApparelRequirements>
+			<li>
+				<apparelLayer>Middle</apparelLayer>
+				<color>(176, 90, 90)</color>
+				<stuff>OuterRim_Beskar</stuff>
+			</li>
+			<li>
+				<apparelLayer>Belt</apparelLayer>
+				<color>(176, 90, 90)</color>
+			</li>
+			<li>
+				<apparelLayer>ShellExtra</apparelLayer>
+				<color>(176, 90, 90)</color>
+				<stuff>OuterRim_Beskar</stuff>
+			</li>
+			<li>
+				<apparelLayer>Overhead</apparelLayer>
+				<color>(176, 90, 90)</color>
+				<stuff>OuterRim_Beskar</stuff>
+			</li>
+		</specificApparelRequirements>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="BaseMandoCrusaderPawn">
+		<defName>OuterRim_Crusader_MediumMerc</defName>
+		<label>mandalorian (medium)</label>
+		<weaponTags>
+			<li>ORMandalorianRifle</li>
+		</weaponTags>
+		<apparelTags>
+			<li>MandalorianJetpack</li>
+		</apparelTags>
+		<apparelRequired Inherit="False">
+			<li>OuterRim_Bodysuit</li>
+			<li>OuterRim_MandalorianChest_NeoCrusader</li>
+			<li>OuterRim_MandalorianHelmet_NeoCrusader</li>
+			<li>OuterRim_MandalorianPauldrons_NeoCrusader</li>
+		</apparelRequired>
+		<combatPower>220</combatPower>
+		<specificApparelRequirements>
+			<li>
+				<apparelLayer>Middle</apparelLayer>
+				<color>(199, 175, 109)</color>
+				<stuff>OuterRim_Beskar</stuff>
+			</li>
+			<li>
+				<apparelLayer>Belt</apparelLayer>
+				<color>(199, 175, 109)</color>
+			</li>
+			<li>
+				<apparelLayer>ShellExtra</apparelLayer>
+				<color>(199, 175, 109)</color>
+				<stuff>OuterRim_Beskar</stuff>
+			</li>
+			<li>
+				<apparelLayer>Overhead</apparelLayer>
+				<color>(199, 175, 109)</color>
+				<stuff>OuterRim_Beskar</stuff>
+			</li>
+		</specificApparelRequirements>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="BaseMandoCrusaderPawn">
+		<defName>OuterRim_Crusader_HeavyMerc</defName>
+		<label>mandalorian (heavy)</label>
+		<weaponTags>
+			<li>ORMandalorianRifleStrong</li>
+		</weaponTags>
+		<apparelTags>
+			<li>MandalorianJetpack</li>
+		</apparelTags>
+		<apparelRequired Inherit="False">
+			<li>OuterRim_Bodysuit</li>
+			<li>OuterRim_MandalorianChest_NeoCrusader</li>
+			<li>OuterRim_MandalorianHelmet_NeoCrusader</li>
+			<li>OuterRim_MandalorianPauldrons_NeoCrusader</li>
+		</apparelRequired>
+		<combatPower>260</combatPower>
+		<specificApparelRequirements>
+			<li>
+				<apparelLayer>Middle</apparelLayer>
+				<color>(163, 163, 163)</color>
+				<stuff>OuterRim_Beskar</stuff>
+			</li>
+			<li>
+				<apparelLayer>Belt</apparelLayer>
+				<color>(163, 163, 163)</color>
+			</li>
+			<li>
+				<apparelLayer>ShellExtra</apparelLayer>
+				<color>(163, 163, 163)</color>
+				<stuff>OuterRim_Beskar</stuff>
+			</li>
+			<li>
+				<apparelLayer>Overhead</apparelLayer>
+				<color>(163, 163, 163)</color>
+				<stuff>OuterRim_Beskar</stuff>
+			</li>
+		</specificApparelRequirements>
+	</PawnKindDef>
+
+</Defs>

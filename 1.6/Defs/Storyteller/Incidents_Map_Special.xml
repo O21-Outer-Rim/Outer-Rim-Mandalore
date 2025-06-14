@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<IncidentDef>
+		<defName>OuterRim_HonourRaid</defName>
+		<label>honour raid</label>
+		<category>Misc</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>OuterRimMandalore.IncidentWorker_HonourRaid</workerClass>
+		<baseChance>0.2</baseChance>
+		<requireColonistsPresent>true</requireColonistsPresent>
+	</IncidentDef>
+
+</Defs>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<Vehicles.VehicleBuildDef ParentName="VehicleBaseBuildable">
+		<defName>OuterRim_MandoAssaultShuttle_Blueprint</defName>
+		<label>mandalorian assault shuttle</label>
+		<description>For those who want a transport pod that doesn't crash into the ground as a method of braking, this hunk of metal fitted with far too many thrusters will not only get you into situations but also back out of them. It is ridiculously wasteful in terms of fuel but it works incredibly well as an ambush vehicle, moving five times faster than drop pods. Earned its nickname as it can only move by launching itself into the stratosphere, thanks to oversized boosters.</description>
+		<graphicData>
+			<texPath>OuterRim/Vehicles/Mandalorian/MandalorianAssaultShuttle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(7, 3.5)</drawSize>
+			<drawRotated>false</drawRotated>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>9000</WorkToBuild>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(5, 3)</size>
+		<costList>
+			<OuterRim_Durasteel>3000</OuterRim_Durasteel>
+			<OuterRim_ComponentHypertech>20</OuterRim_ComponentHypertech>
+		</costList>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<thingToSpawn>OuterRim_MandoAssaultShuttle</thingToSpawn>
+		<researchPrerequisites>
+			<li>OuterRim_MandalorianArmory</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+		<designationCategory>OuterRim_ArchitectHypertech</designationCategory>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>OuterRim_SubCatVehicles</subCategory>
+				<showOnlyInCategory>true</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</Vehicles.VehicleBuildDef>
+	
+</Defs>

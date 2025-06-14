@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<IdeoIconDef>
+		<defName>OuterRim_CivilMandalorian</defName>
+		<iconPath>OuterRim/UI/Cultures/CivilMandalorian</iconPath>
+		<memes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">OuterRim_MemeNewMandalorians</li>
+		</memes>
+	</IdeoIconDef>
+	
+	<IdeoIconDef>
+		<defName>OuterRim_Mandalore</defName>
+		<iconPath>OuterRim/UI/Cultures/Mandalore</iconPath>
+		<memes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">OuterRim_MemeWayOfMandalore</li>
+		</memes>
+	</IdeoIconDef>
+	
+	<IdeoIconDef>
+		<defName>OuterRim_Mandalorian</defName>
+		<iconPath>OuterRim/UI/Cultures/Mandalorian</iconPath>
+	</IdeoIconDef>
+
+</Defs>

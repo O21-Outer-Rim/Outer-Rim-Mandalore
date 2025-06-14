@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<CultureDef>
+		<defName>OuterRim_CultureMandalorian</defName>
+		<label>way of the mandalore</label>
+		<description>A way of life followed by orthodox Mandalorians. Most prominently the Children of the Watch and Death Watch. Followers of this culture, creed and religion are few in number compared to the mainstream Mandalorian society.</description>
+		<ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">OuterRim_IdeoMandalorian</ideoNameMaker>
+		<deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">OuterRim_DeityMandalorian</deityNameMaker>
+		<deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">OuterRim_DeityTypeMakerMandalorian</deityTypeMaker>
+		<leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">OuterRim_LeaderTitleMakerMandalorian</leaderTitleMaker>
+		<festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">OuterRim_NamerFestivalMandalorian</festivalNameMaker>
+		<allowedPlaceTags>
+			<li>OuterRim_OriginMandalorian</li>
+		</allowedPlaceTags>
+		<iconPath>OuterRim/UI/Cultures/Mandalore</iconPath>
+		<iconColor>(0.8, 0.8, 0.8)</iconColor>
+		<thingStyleCategories>
+			<!-- <li MayRequire="Ludeon.RimWorld.Ideology">
+				<category>OuterRim_StyleMandalorian</category>
+				<priority>2</priority>
+			</li> -->
+		</thingStyleCategories>
+		<styleItemTags>
+			<li>
+				<tag>Urban</tag>
+				<baseWeight>1</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+			<li>
+				<tag>NoBeard</tag>
+				<baseWeight>10</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+			<li>
+				<tag>BeardRural</tag>
+				<baseWeight>0.1</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+			<li>
+				<tag>BeardUrban</tag>
+				<baseWeight>0.2</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+			<li>
+				<tag>NoTattoo</tag>
+				<baseWeight>1</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+		</styleItemTags>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_CultureExtended">
+				<ideoIconDef>OuterRim_Mandalorian</ideoIconDef>
+			</li>
+		</modExtensions>
+	</CultureDef>
+
+	<RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+		<defName>OuterRim_IdeoMandalorian</defName>
+		<rulePack>
+			<rulesStrings>
+				<!-- From symbol pack -->
+				<li>r_ideoName->Way of the Mandalore</li>
+				<li>r_ideoAdjective->The Way</li>
+				<li>r_memberName->mandalorian</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+		<defName>OuterRim_DeityMandalorian</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_deityName->Mandalore</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+		<defName>OuterRim_DeityTypeMakerMandalorian</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_deityType->ancient leader</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+		<defName>OuterRim_LeaderTitleMakerMandalorian</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_leaderTitle->mandalore</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+		<defName>OuterRim_NamerFestivalMandalorian</defName>
+		<include>
+			<li>NamerFestivalGlobal</li>
+		</include>
+	</RulePackDef>
+
+</Defs>
