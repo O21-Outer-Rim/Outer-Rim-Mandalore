@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 using Verse;
+using TabulaRasa;
 
 namespace OuterRimMandalore
 {
@@ -31,7 +32,7 @@ namespace OuterRimMandalore
             Version version = Assembly.GetExecutingAssembly().GetName().Version;
             CurrentVersion = $"{version.Major}.{version.Minor}.{version.Build}";
 
-            LogUtil.LogMessage($"{CurrentVersion} ::");
+            Log.Message($":: Outer Rim - Mandalore :: ".Colorize(Color.cyan) + $"{CurrentVersion} ::");
 
             if (Prefs.DevMode)
             {
@@ -42,27 +43,10 @@ namespace OuterRimMandalore
             harmony.PatchAll(Assembly.GetExecutingAssembly());
         }
 
-        public override string SettingsCategory() => "Outer Rim - Mandalore";
-
-        public override void DoSettingsWindowContents(Rect inRect)
-        {
-            bool flag = optionsViewRectHeight > inRect.height;
-            Rect viewRect = new Rect(inRect.x, inRect.y, inRect.width - (flag ? 26f : 0f), optionsViewRectHeight);
-            Widgets.BeginScrollView(inRect, ref optionsScrollPosition, viewRect);
-            Listing_Standard listing = new Listing_Standard();
-            Rect rect = new Rect(viewRect.x, viewRect.y, viewRect.width, 999999f);
-            listing.Begin(rect);
-            // ============================ CONTENTS ================================
-            DoOptionsCategoryContents(listing);
-            // ======================================================================
-            optionsViewRectHeight = listing.CurHeight;
-            listing.End();
-            Widgets.EndScrollView();
-        }
-
         public void DoOptionsCategoryContents(Listing_Standard listing)
         {
-            listing.Note("Some settings may require a game restart to take effect.", GameFont.Tiny);
+            listing.GapLine();
+            listing.Note("Mandalore", GameFont.Medium);
             listing.GapLine();
             listing.CheckboxEnhanced("Enable Honour Raids", "If enabled, neutral and friendly mandalorian factions will send honour raids occasionally, every honour raid combatant killed will gain goodwill with the faction that sent it. Capturing them and sending them on their way when healed on the other hand will do nothing for goodwill.", ref settings.honourRaids);
         }

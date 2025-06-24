@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-	<VFECore.Misc.HireableFactionDef>
+	<VEF.Planet.HireableFactionDef>
 		<defName>OuterRim_Crusader</defName>
 		<description>A group of Mandalorians that think themselves traditionalists. Others generally see the Death Watch as a group of terrorists, or mercenaries.</description>
 		<texPath>OuterRim/UI/Icons/NeoCrusaderIcon</texPath>
@@ -14,7 +14,7 @@
 		</pawnKinds>
 		<commTag>Neo-Crusaders</commTag>
 		<referencedFaction>OuterRim_MandalorianCrusaders</referencedFaction>
-	</VFECore.Misc.HireableFactionDef>
+	</VEF.Planet.HireableFactionDef>
 
 	<PawnKindDef ParentName="BaseMandoCrusaderPawn">
 		<defName>OuterRim_Crusader_MeleeMerc</defName>

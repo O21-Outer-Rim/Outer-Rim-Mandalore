@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-	<ScenarioDef>
+	<ScenarioDef ParentName="ScenarioBase">
 		<defName>OuterRim_RetiredBountyHunter</defName>
 		<label>Retired Bounty Hunter</label>
 		<description>You've been hunting for as long as you can remember, and while you're still relatively young, for a bounty hunter to live to your age is a huge accomplishment. So here you are, alone on a backwater world with your remaining funds spent on resources to build up a retirement home for yourself.\n\nNote: Starting as a solo pawn will make this a little challenging even with the goods provided.</description>

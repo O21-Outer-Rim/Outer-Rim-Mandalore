@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Mandalore\\1.6\\Source\\OuterRimMandalore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{912A4271-214A-4BE4-ABE5-7705E5BB893A}|OuterRimMandalore.csproj|f:\\rwmodcategories\\neronix17\\outerrim\\outer rim - mandalore\\1.6\\source\\outerrimmandalore\\harmony\\patch_outerrimcoremod_settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{912A4271-214A-4BE4-ABE5-7705E5BB893A}|OuterRimMandalore.csproj|solutionrelative:harmony\\patch_outerrimcoremod_settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{912A4271-214A-4BE4-ABE5-7705E5BB893A}|OuterRimMandalore.csproj|f:\\rwmodcategories\\neronix17\\outerrim\\outer rim - mandalore\\1.6\\source\\outerrimmandalore\\outerrimmandaloremod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{912A4271-214A-4BE4-ABE5-7705E5BB893A}|OuterRimMandalore.csproj|solutionrelative:outerrimmandaloremod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{912A4271-214A-4BE4-ABE5-7705E5BB893A}|OuterRimMandalore.csproj|f:\\rwmodcategories\\neronix17\\outerrim\\outer rim - mandalore\\1.6\\source\\outerrimmandalore\\harmony\\patch_pawn_kill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{912A4271-214A-4BE4-ABE5-7705E5BB893A}|OuterRimMandalore.csproj|solutionrelative:harmony\\patch_pawn_kill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{912A4271-214A-4BE4-ABE5-7705E5BB893A}|OuterRimMandalore.csproj|f:\\rwmodcategories\\neronix17\\outerrim\\outer rim - mandalore\\1.6\\source\\outerrimmandalore\\incidentworkers\\incidentworker_honourraid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{912A4271-214A-4BE4-ABE5-7705E5BB893A}|OuterRimMandalore.csproj|solutionrelative:incidentworkers\\incidentworker_honourraid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{912A4271-214A-4BE4-ABE5-7705E5BB893A}|OuterRimMandalore.csproj|f:\\rwmodcategories\\neronix17\\outerrim\\outer rim - mandalore\\1.6\\source\\outerrimmandalore\\outerrimmandaloresettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{912A4271-214A-4BE4-ABE5-7705E5BB893A}|OuterRimMandalore.csproj|solutionrelative:outerrimmandaloresettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Patch_OuterRimCoreMod_Settings.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Mandalore\\1.6\\Source\\OuterRimMandalore\\Harmony\\Patch_OuterRimCoreMod_Settings.cs",
+              "RelativeDocumentMoniker": "Harmony\\Patch_OuterRimCoreMod_Settings.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Mandalore\\1.6\\Source\\OuterRimMandalore\\Harmony\\Patch_OuterRimCoreMod_Settings.cs",
+              "RelativeToolTip": "Harmony\\Patch_OuterRimCoreMod_Settings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T17:19:53.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Patch_Pawn_Kill.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Mandalore\\1.6\\Source\\OuterRimMandalore\\Harmony\\Patch_Pawn_Kill.cs",
+              "RelativeDocumentMoniker": "Harmony\\Patch_Pawn_Kill.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Mandalore\\1.6\\Source\\OuterRimMandalore\\Harmony\\Patch_Pawn_Kill.cs",
+              "RelativeToolTip": "Harmony\\Patch_Pawn_Kill.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T16:30:17.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IncidentWorker_HonourRaid.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Mandalore\\1.6\\Source\\OuterRimMandalore\\IncidentWorkers\\IncidentWorker_HonourRaid.cs",
+              "RelativeDocumentMoniker": "IncidentWorkers\\IncidentWorker_HonourRaid.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Mandalore\\1.6\\Source\\OuterRimMandalore\\IncidentWorkers\\IncidentWorker_HonourRaid.cs",
+              "RelativeToolTip": "IncidentWorkers\\IncidentWorker_HonourRaid.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAvwCMAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T16:29:42.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OuterRimMandaloreMod.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Mandalore\\1.6\\Source\\OuterRimMandalore\\OuterRimMandaloreMod.cs",
+              "RelativeDocumentMoniker": "OuterRimMandaloreMod.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Mandalore\\1.6\\Source\\OuterRimMandalore\\OuterRimMandaloreMod.cs",
+              "RelativeToolTip": "OuterRimMandaloreMod.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwCsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T16:27:52.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OuterRimMandaloreSettings.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Mandalore\\1.6\\Source\\OuterRimMandalore\\OuterRimMandaloreSettings.cs",
+              "RelativeDocumentMoniker": "OuterRimMandaloreSettings.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\OuterRim\\Outer Rim - Mandalore\\1.6\\Source\\OuterRimMandalore\\OuterRimMandaloreSettings.cs",
+              "RelativeToolTip": "OuterRimMandaloreSettings.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T16:27:39.787Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
