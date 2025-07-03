@@ -2,6 +2,7 @@
 <loadFolders>
 	<v1.4>
 		<li>/</li>
+		<li>Common_Old</li>
 		<li>1.4</li>
 		<li IfModActive="Ludeon.RimWorld.Ideology">1.4/Mods/Ideology</li>
 		<li IfModActive="Neronix17.OuterRim.FurnitureAndDecor">1.4/Mods/OuterRim/FurnitureAndDecor</li>
@@ -9,6 +10,7 @@
 	</v1.4>
 	<v1.5>
 		<li>/</li>
+		<li>Common_Old</li>
 		<li>1.5</li>
 		<li IfModActive="Ludeon.RimWorld.Ideology">1.5/Mods/Ideology</li>
 		<li IfModActive="Neronix17.OuterRim.FurnitureAndDecor">1.5/Mods/OuterRim/FurnitureAndDecor</li>
@@ -17,6 +19,7 @@
 	</v1.5>
 	<v1.6>
 		<li>/</li>
+		<li>Common</li>
 		<li>1.6</li>
 		<li IfModActive="Ludeon.RimWorld.Ideology">1.6/Mods/Ideology</li>
 		<li IfModActive="Neronix17.OuterRim.FurnitureAndDecor">1.6/Mods/OuterRim/FurnitureAndDecor</li>
