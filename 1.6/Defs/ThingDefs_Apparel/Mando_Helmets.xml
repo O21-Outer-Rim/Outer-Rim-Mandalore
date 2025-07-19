@@ -33,6 +33,9 @@
 			<Insulation_Heat>20</Insulation_Heat>
 			<EquipDelay>1</EquipDelay>
 		</statBases>
+		<equippedStatOffsets>
+			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.69</VacuumResistance>
+		</equippedStatOffsets>
 		<thingCategories>
 			<li>ArmorHeadgear</li>
 		</thingCategories>
