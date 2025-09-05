@@ -30,9 +30,10 @@
 		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
 		<designationCategory>OuterRim_ArchitectHypertech</designationCategory>
 		<modExtensions>
-			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
-				<subCategory>OuterRim_SubCatVehicles</subCategory>
-				<showOnlyInCategory>true</showOnlyInCategory>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Vehicles</li>
+				</subcategories>
 			</li>
 		</modExtensions>
 	</Vehicles.VehicleBuildDef>
