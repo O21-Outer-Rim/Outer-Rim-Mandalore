@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Category: Mandalorians -->
+
+	<MemeGroupDef MayRequire="Ludeon.RimWorld.Ideology">
+		<defName>OuterRim_Mandalore</defName>
+		<drawOffset>(0.09, 0.23)</drawOffset>
+		<maxRows>1</maxRows>
+	</MemeGroupDef>
+
+	<MemeDef MayRequire="Ludeon.RimWorld.Ideology">
+		<defName>OuterRim_MemeWayOfMandalore</defName>
+		<label>way of the mandalore</label>
+		<description>We follow the ancient rulers of our people, this is the way.</description>
+		<iconPath>OuterRim/UI/Memes/WayOfTheMandalore</iconPath>
+		<groupDef>OuterRim_Mandalore</groupDef>
+		<impact>2</impact>
+		<renderOrder>420</renderOrder>
+		<exclusionTags>
+			<li>GroupRelation</li>
+		</exclusionTags>
+		<requireOne>
+			<li>
+				<li>Slavery_Acceptable</li>
+				<li>Slavery_Honorable</li>
+			</li>
+			<li>
+				<li>Execution_Required</li>
+				<li>Execution_RespectedIfGuilty</li>
+				<li>Execution_DontCare</li>
+			</li>
+		</requireOne>
+	</MemeDef>
+
+	<MemeDef MayRequire="Ludeon.RimWorld.Ideology">
+		<defName>OuterRim_MemeNewMandalorians</defName>
+		<label>new mandalorians</label>
+		<description>The old ways caused nothing but pain for our people, we must be better.</description>
+		<iconPath>OuterRim/UI/Memes/NewMandalorians</iconPath>
+		<groupDef>OuterRim_Mandalore</groupDef>
+		<impact>2</impact>
+		<renderOrder>430</renderOrder>
+		<exclusionTags>
+			<li>GroupRelation</li>
+		</exclusionTags>
+		<requireOne>
+			<li>
+				<li>Charity_Essential</li>
+				<li>Charity_Important</li>
+				<li>Charity_Worthwhile</li>
+			</li>
+		</requireOne>
+	</MemeDef>
+
+</Defs>

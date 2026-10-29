@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<ThingDef ParentName="OuterRimBlasterBase_Projectile">
+		<defName>OuterRim_Bullet_MandoPistol</defName>
+		<graphicData>
+			<texPath>OuterRim/Projectile/BlasterBolt_Yellow</texPath>
+		</graphicData>
+		<projectile>
+			<damageAmountBase>12</damageAmountBase>
+			<armorPenetrationBase>0.25</armorPenetrationBase>
+		</projectile>
+	</ThingDef>
+	
+	<ThingDef ParentName="OuterRimBlasterBase_Projectile">
+		<defName>OuterRim_Bullet_MandoCarbine</defName>
+		<graphicData>
+			<texPath>OuterRim/Projectile/BlasterBolt_Yellow</texPath>
+		</graphicData>
+		<projectile>
+			<damageAmountBase>8</damageAmountBase>
+			<armorPenetrationBase>0.15</armorPenetrationBase>
+		</projectile>
+	</ThingDef>
+	
+	<ThingDef ParentName="OuterRimBlasterBase_Projectile">
+		<defName>OuterRim_Bullet_MandoRifle</defName>
+		<graphicData>
+			<texPath>OuterRim/Projectile/BlasterBolt_Yellow</texPath>
+		</graphicData>
+		<projectile>
+			<damageAmountBase>20</damageAmountBase>
+			<armorPenetrationBase>0.30</armorPenetrationBase>
+		</projectile>
+	</ThingDef>
+	
+</Defs>

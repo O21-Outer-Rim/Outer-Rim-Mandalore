@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<InterStoryCore.InterPawnDef>
+		<defName>OuterRim_TemureVizsla</defName>
+		<label>Temure Vizsla</label>
+		<faction>OuterRim_DeathWatch</faction>
+		<pawnImagePath>OuterRim/InterPawns/TemureVizsla</pawnImagePath>
+		<introKey>TemureVizsla_IntroductionBegin</introKey>
+		<helloKey>TemureVizsla_HelloBegin</helloKey>
+		<rootKeys>
+			<li>TemureVizsla_GetToKnow_Begin</li>
+			<li>TemureVizsla_Insult_Begin</li>
+			<li>TemureVizsla_HelpMilitary</li>
+			<li>TemureVizsla_HelpFood</li>
+			<li>TemureVizsla_HelpMedical</li>
+			<li>TemureVizsla_DEVInfluenceAdd10</li>
+			<li>TemureVizsla_DEVInfluenceAdd50</li>
+			<li>TemureVizsla_DEVGoodwillAdd10</li>
+			<li>TemureVizsla_DEVGoodwillAdd50</li>
+		</rootKeys>
+		<chatOptions>
+			<!-- ============================================================ Hello - Introduction ============================================================ -->
+			<li>
+				<chatKey>TemureVizsla_IntroductionBegin</chatKey>
+				<outputText>[The Mandalorian's beskar-clad figure stands tall, his expression hidden behind the T-shaped visor of his helmet. His voice resonates with authority as he speaks.]\n\nI am Temure Vizsla, a Mandalorian warrior entrusted with the responsibility of this outer rim outpost, speak your purpose here, and remember, respect is earned, not given.</outputText>
+				<outputWorker>InterStoryCore.ChatOptionWorker_IntroComplete</outputWorker>
+				<allowCloseChat>true</allowCloseChat>
+				<onlyOnce>true</onlyOnce>
+				<acceptedKeys>
+					<li>TemureVizsla_Introduction_Chat</li>
+				</acceptedKeys>
+			</li>
+			<li>
+				<chatKey>TemureVizsla_Introduction_Chat</chatKey>
+				<inputText>I just want to chat, maybe we have something to offer one another.</inputText>
+				<outputText>[The warriors stance drops slightly, clearly disappointed by the idea this communication could be excessively chatty.]\n\nFine, make it quick.</outputText>
+				<returnToRoot>true</returnToRoot>
+			</li>
+			<!-- ============================================================ Hello - Condition Enemies ============================================================ -->
+			<li>
+				<chatKey>TemureVizsla_HelloBegin</chatKey>
+				<outputText>Outsider, I have detected an unknown enemy threat in your vicinity. Mandalorians stand together with their allies in battle. I will send warriors to aid you if you require?</outputText>
+				<outputWorker>InterStoryCore.ChatOptionWorker_UnderAttack</outputWorker>
+				<acceptedKeys>
+					<li>TemureVizsla_HelpMilitaryCheap</li>
+					<li>TemureVizsla_ReturnToRoot</li>
+				</acceptedKeys>
+				<minGoodwill>50</minGoodwill>
+				<allowCloseChat>true</allowCloseChat>
+			</li>
+			<!-- ============================================================ Personal Information ============================================================ -->
+			<li>
+				<chatKey>TemureVizsla_GetToKnow_Begin</chatKey>
+				<inputText>I'd like to get to know you more.</inputText>
+				<outputText>Very well, ask your questions.</outputText>
+				<acceptedKeys>
+					<li>TemureVizsla_GetToKnow_More</li>
+					<li>TemureVizsla_ReturnToRoot</li>
+				</acceptedKeys>
+			</li>
+			<li>
+				<chatKey>TemureVizsla_GetToKnow_More</chatKey>
+				<inputText>Tell me more about yourself.</inputText>
+				<outputText>I am a Mandalorian warrior of Clan Vizsla, tasked with overseeing this remote outpost. My life is defined by the strict code of honor and traditions that govern our people. I have fought in many battles, earning my armor's scars with pride. My loyalty is unwavering, dedicated to my clan and our way of life. Does that satisfy your curiosity?</outputText>
+				<acceptedKeys>
+					<li>TemureVizsla_GetToKnow_More</li>
+					<li>TemureVizsla_ReturnToRoot</li>
+				</acceptedKeys>
+			</li>
+			<li>
+				<chatKey>TemureVizsla_GetToKnow_More</chatKey>
+				<inputText>What do you like to do around here?</inputText>
+				<outputText>My duties keep me occupied. Training our warriors, maintaining our equipment, and ensuring the outpost's security are my primary concerns. In rare moments of respite, I find solace in honing my combat skills, refining the art of the hunt, and upholding Mandalorian traditions.</outputText>
+				<acceptedKeys>
+					<li>TemureVizsla_GetToKnow_More</li>
+					<li>TemureVizsla_ReturnToRoot</li>
+				</acceptedKeys>
+			</li>
+			<li>
+				<chatKey>TemureVizsla_GetToKnow_More</chatKey>
+				<inputText>Where did you come from?</inputText>
+				<outputText>I hail from Mandalore, the ancestral home of the Mandalorian people.</outputText>
+				<acceptedKeys>
+					<li>TemureVizsla_GetToKnow_More</li>
+					<li>TemureVizsla_ReturnToRoot</li>
+				</acceptedKeys>
+			</li>
+			<li>
+				<chatKey>TemureVizsla_GetToKnow_More</chatKey>
+				<inputText>Were you sent here as punishment?</inputText>
+				<outputText>My assignment to this outpost is a duty entrusted to me by my clan and our leaders. Mandalorians do not view responsibilities as punishments but as tests of our mettle and opportunities to prove our worth.\n\n[The tone his voice took on from your question suggests that the answer is actually just "yes".]</outputText>
+				<acceptedKeys>
+					<li>TemureVizsla_GetToKnow_More</li>
+					<li>TemureVizsla_ReturnToRoot</li>
+				</acceptedKeys>
+			</li>
+			<!-- ============================================================ Insults ============================================================ -->
+			<li>
+				<chatKey>TemureVizsla_Insult_Begin</chatKey>
+				<inputText>[Insult...]</inputText>
+				<acceptedKeys>
+					<li>TemureVizsla_Insult_More</li>
+					<li>TemureVizsla_ReturnToRoot</li>
+				</acceptedKeys>
+				<minGoodwill>-90</minGoodwill>
+			</li>
+			<li>
+				<chatKey>TemureVizsla_Insult_More</chatKey>
+				<inputText>I spit on your traditions, hiding your face is cowardly not brave!</inputText>
+				<outputText>Your words lack the weight to anger a true Mandalorian. We find strength in our convictions, not in responding to provocations.</outputText>
+				<acceptedKeys>
+					<li>TemureVizsla_ReturnToRoot</li>
+				</acceptedKeys>
+				<minGoodwill>-90</minGoodwill>
+				<goodwillChange>-10</goodwillChange>
+			</li>
+			<li>
+				<chatKey>TemureVizsla_Insult_More</chatKey>
+				<inputText>Your mother looks like a krayt dragon, and smells like a sarlacc!</inputText>
+				<outputText>My mother was a warrior of unmatched courage and honor, your attempt at insult falls short, outsider, such words mean nothing to me,</outputText>
+				<acceptedKeys>
+					<li>TemureVizsla_ReturnToRoot</li>
+				</acceptedKeys>
+				<minGoodwill>-90</minGoodwill>
+				<goodwillChange>-10</goodwillChange>
+			</li>
+			<li>
+				<chatKey>TemureVizsla_Insult_More</chatKey>
+				<inputText>I heard the other mandalorians in your outpost say they only pretend to like you.</inputText>
+				<outputText>The bonds among Mandalorians are forged in battle and loyalty, outsider.</outputText>
+				<acceptedKeys>
+					<li>TemureVizsla_ReturnToRoot</li>
+				</acceptedKeys>
+				<minGoodwill>-90</minGoodwill>
+				<goodwillChange>-10</goodwillChange>
+			</li>
+			<!-- ============================================================ Standard Help Requests ============================================================ -->
+			<li>
+				<chatKey>TemureVizsla_HelpMilitaryCheap</chatKey>
+				<buttonLabel>Cost: 25 Influence</buttonLabel>
+				<buttonText>[Request Military Aid]</buttonText>
+				<inputText>Yes, please! I was just about to ask!</inputText>
+				<outputText>Prepare for our arrival. Vizsla out.\n\n[The transmission ends suddenly]</outputText>
+				<outputWorker>InterStoryCore.ChatOptionWorker_SendAid</outputWorker>
+				<influenceCost>25</influenceCost>
+				<needsFaction>true</needsFaction>
+				<minGoodwill>0</minGoodwill>
+				<acceptedKeys>
+					<li>TemureVizsla_NullKey</li>
+				</acceptedKeys>
+			</li>
+			<li>
+				<chatKey>TemureVizsla_HelpMilitary</chatKey>
+				<buttonLabel>Cost: 30 Influence</buttonLabel>
+				<buttonText>[Request Military Aid]</buttonText>
+				<inputText>We're under attack from some raiders, could you send some help over?</inputText>
+				<outputText>We will send a detachment to help. Prepare for our arrival.</outputText>
+				<outputWorker>InterStoryCore.ChatOptionWorker_SendAid</outputWorker>
+				<influenceCost>30</influenceCost>
+				<needsFaction>true</needsFaction>
+				<minGoodwill>50</minGoodwill>
+			</li>
+			<li>
+				<chatKey>TemureVizsla_HelpFood</chatKey>
+				<buttonLabel>Cost: 20 Influence</buttonLabel>
+				<buttonText>[Request Food Aid]</buttonText>
+				<inputText>We could really use some food, if you have any to spare?</inputText>
+				<outputText>I can arrange for basic food supplies to be sent to you. May this aid strengthen the relations between us.</outputText>
+				<outputWorker>InterStoryCore.ChatOptionWorker_SendAid</outputWorker>
+				<influenceCost>20</influenceCost>
+				<needsFaction>true</needsFaction>
+				<minGoodwill>50</minGoodwill>
+			</li>
+			<li>
+				<chatKey>TemureVizsla_HelpMedical</chatKey>
+				<buttonLabel>Cost: 20 Influence</buttonLabel>
+				<buttonText>[Request Medical Aid]</buttonText>
+				<inputText>We could really use some medicine, if you have any to spare?</inputText>
+				<outputText>I can arrange for basic food supplies to be sent to you. May this aid strengthen the relations between us.</outputText>
+				<outputWorker>InterStoryCore.ChatOptionWorker_SendAid</outputWorker>
+				<influenceCost>20</influenceCost>
+				<needsFaction>true</needsFaction>
+				<minGoodwill>50</minGoodwill>
+			</li>
+			<!-- ============================================================ Return to Root ============================================================ -->
+			<li>
+				<chatKey>TemureVizsla_ReturnToRoot</chatKey>
+				<inputText>I'd like to talk about something else.</inputText>
+				<returnToRoot>true</returnToRoot>
+			</li>
+			<!-- ============================================================ Developer Tools / Tests / Cheats ============================================================ -->
+			<li>
+				<chatKey>TemureVizsla_DEVInfluenceAdd10</chatKey>
+				<inputText>[DEV: Add Influence - 10]</inputText>
+				<influenceCost>-10</influenceCost>
+				<devOnly>true</devOnly>
+				<returnToRoot>true</returnToRoot>
+			</li>
+			<li>
+				<chatKey>TemureVizsla_DEVInfluenceAdd50</chatKey>
+				<inputText>[DEV: Add Influence - 50]</inputText>
+				<influenceCost>-50</influenceCost>
+				<devOnly>true</devOnly>
+				<returnToRoot>true</returnToRoot>
+			</li>
+			<li>
+				<chatKey>TemureVizsla_DEVGoodwillAdd10</chatKey>
+				<inputText>[DEV: Add Goodwill - 10]</inputText>
+				<outputWorker>InterStoryCore.ChatOptionWorker_RelationsChange</outputWorker>
+				<needsFaction>true</needsFaction>
+				<goodwillChange>10</goodwillChange>
+				<devOnly>true</devOnly>
+				<returnToRoot>true</returnToRoot>
+			</li>
+			<li>
+				<chatKey>TemureVizsla_DEVGoodwillAdd50</chatKey>
+				<inputText>[DEV: Add Goodwill - 50]</inputText>
+				<outputWorker>InterStoryCore.ChatOptionWorker_RelationsChange</outputWorker>
+				<needsFaction>true</needsFaction>
+				<goodwillChange>50</goodwillChange>
+				<devOnly>true</devOnly>
+				<onlyOnce>true</onlyOnce>
+				<returnToRoot>true</returnToRoot>
+			</li>
+		</chatOptions>
+	</InterStoryCore.InterPawnDef>
+
+</Defs>

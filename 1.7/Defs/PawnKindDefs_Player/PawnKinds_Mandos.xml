@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<PawnKindDef ParentName="OuterRim_BaseColonyPawnKind">
+		<defName>OuterRim_Mando_Player</defName>
+		<label>Mandalorian</label>
+		<race>Human</race>
+		<defaultFactionType>OuterRim_MandoPlayerFaction</defaultFactionType>
+		<isFighter>true</isFighter>
+		<weaponTags Inherit="false" />
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<apparelTags Inherit="False">
+			<li>ORBodysuit</li>
+			<li>MandalorianBasic</li>
+			<li>ORThermalDetBelt</li>
+		</apparelTags>
+		<apparelRequired Inherit="False">
+			<li>OuterRim_Bodysuit</li>
+			<li>OuterRim_MandalorianChest_Simple</li>
+			<li>OuterRim_MandalorianHelmet_Simple</li>
+			<li>OuterRim_MandalorianPauldrons_Simple</li>
+		</apparelRequired>
+		<specificApparelRequirements>
+			<li>
+				<apparelLayer>Middle</apparelLayer>
+				<color>(109, 163, 115)</color>
+				<stuff>OuterRim_Beskar</stuff>
+			</li>
+			<li>
+				<apparelLayer>ShellExtra</apparelLayer>
+				<color>(196, 188, 110)</color>
+				<stuff>OuterRim_Beskar</stuff>
+			</li>
+			<li>
+				<apparelLayer>Overhead</apparelLayer>
+				<color>(109, 163, 115)</color>
+				<stuff>OuterRim_Beskar</stuff>
+			</li>
+		</specificApparelRequirements>
+		<minGenerationAge>45</minGenerationAge>
+	</PawnKindDef>
+	
+</Defs>

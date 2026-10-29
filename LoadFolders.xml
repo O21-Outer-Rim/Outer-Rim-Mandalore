@@ -26,4 +26,13 @@
 		<li IfModActive="Neronix17.OuterRim.OldRepublic">1.6/Mods/OuterRim/OldRepublic</li>
 		<li IfModActive="Neronix17.InterStory.Core">1.6/Mods/InterStory</li>
 	</v1.6>
+	<v1.7>
+		<li>/</li>
+		<li>Common</li>
+		<li>1.7</li>
+		<li IfModActive="Ludeon.RimWorld.Ideology">1.7/Mods/Ideology</li>
+		<li IfModActive="Neronix17.OuterRim.FurnitureAndDecor">1.7/Mods/OuterRim/FurnitureAndDecor</li>
+		<li IfModActive="Neronix17.OuterRim.OldRepublic">1.7/Mods/OuterRim/OldRepublic</li>
+		<li IfModActive="Neronix17.InterStory.Core">1.7/Mods/InterStory</li>
+	</v1.7>
 </loadFolders>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+	<TabulaRasa.DesignatorSubCategoryDef>
+		<defName>OuterRim_SubCatDecalsMandalorians</defName>
+		<label>Decals (Mandalorians)</label>
+		<!-- <iconPath>Toolbox/UI/CategoryStructural</iconPath> -->
+		<designationCategory>OuterRim_ArchitectHypertech</designationCategory>
+	</TabulaRasa.DesignatorSubCategoryDef>
+
+</Defs>

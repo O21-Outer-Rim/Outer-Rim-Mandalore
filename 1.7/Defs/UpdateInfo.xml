@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- <TabulaRasa.UpdateDef>
+		<defName>OuterRim_Mandalore_27082023</defName>
+		<date>2023/08/27</date>
+		<banner>UpdateInfo/O21OuterRim</banner>
+		<contentList>
+			<li>
+				<header>Assault Shuttle</header>
+				<text>If you have the Vehicles Framework, you'll be able to build a new fast moving assault shuttle through Mandalorian research.</text>
+				<image>OuterRim/UpdateImages/MandalorianShuttle</image>
+			</li>
+		</contentList>
+		<links>
+			<li>
+				<linkLabel>Steam Workshop</linkLabel>
+				<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2920516629</linkUrl>
+				<linkTex>TabulaRasa/UI/Steam</linkTex>
+			</li>
+			<li>
+				<linkLabel>Outer Rim Collection</linkLabel>
+				<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1927864603</linkUrl>
+			</li>
+		</links>
+	</TabulaRasa.UpdateDef> -->
+
+	<TabulaRasa.UpdateDef>
+		<defName>OuterRim_Mandalore_29102023</defName>
+		<date>2023/10/29</date>
+		<banner>UpdateInfo/O21OuterRim</banner>
+		<contentList>
+			<li>
+				<header>Heavy Armour Set</header>
+				<text>A new set of armour to match the existing heavy mandalorian helmet, with better stats and a higher cost. (Helmet has been rebalanced to match)</text>
+			</li>
+			<li>
+				<header>Jetpacks</header>
+				<text>Mandalorian jetpacks (Z-6 &amp; Supercommando), which are distributed throughout their factions, they'll also now use the ones from Outer Rim - Core.</text>
+			</li>
+			<li>
+				<header>Melee Weapons</header>
+				<text>Mandalorian melee weapons (hookblade, warhammer &amp; hammer), which are distributed throughout their factions.</text>
+			</li>
+			<li>
+				<header>Mandalorian Crusaders</header>
+				<text>If you have Outer Rim - Old Republic, the Mandalorian Crusaders faction will now be available, they exclusively use the crusader armour set.</text>
+				<image>OuterRim/UpdateImages/NeoCrusaders</image>
+			</li>
+			<li>
+				<header>Hireable Mandalorians</header>
+				<text>You can now use comms to hire a variety of Mandalorians for silver, from any mandalorian faction, they'll temporarily behave as part of the colony and leave when their contract is up. This is done via the Comms Console.</text>
+			</li>
+		</contentList>
+		<links>
+			<li>
+				<linkLabel>Steam Workshop</linkLabel>
+				<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2920516629</linkUrl>
+				<linkTex>TabulaRasa/UI/Steam</linkTex>
+			</li>
+			<li>
+				<linkLabel>Outer Rim Collection</linkLabel>
+				<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1927864603</linkUrl>
+			</li>
+		</links>
+	</TabulaRasa.UpdateDef>
+
+</Defs>
